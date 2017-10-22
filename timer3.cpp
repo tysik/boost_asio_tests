@@ -12,7 +12,7 @@ high_resolution_clock::time_point start, stop;
 
 void print(const boost::system::error_code& ec, boost::asio::deadline_timer* t, int* count) {
   if (*count <= 5) {
-    cout << *count << " : " << endl;
+    cout << *count << " : ";
     ++(*count);
 
     stop = high_resolution_clock::now();

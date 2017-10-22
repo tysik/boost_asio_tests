@@ -25,3 +25,15 @@ target_link_libraries(daytime1 ${Boost_LIBRARIES})
 
 add_executable(daytime2 daytime2.cpp)
 target_link_libraries(daytime2 ${Boost_LIBRARIES})
+
+add_executable(daytime3 daytime3.cpp)
+target_link_libraries(daytime3 ${Boost_LIBRARIES})
+
+add_executable(daytime4 daytime4.cpp)
+target_link_libraries(daytime4 ${Boost_LIBRARIES})
+
+add_executable(daytime5 daytime5.cpp)
+target_link_libraries(daytime5 ${Boost_LIBRARIES})
+
+add_executable(daytime6 daytime6.cpp)
+target_link_libraries(daytime6 ${Boost_LIBRARIES})

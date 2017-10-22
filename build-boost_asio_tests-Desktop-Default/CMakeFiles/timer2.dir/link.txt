@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/timer2.dir/timer2.cpp.o  -o timer2 -rdynamic -lboost_system -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -lpthread 

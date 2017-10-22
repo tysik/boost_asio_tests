@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tysik/Projekty/boost_asio_tests/timer5.cpp
+iostream
+-
+chrono
+-
+boost/asio.hpp
+-
+boost/thread/thread.hpp
+-
+boost/bind.hpp
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+

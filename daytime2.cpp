@@ -20,7 +20,7 @@ int main() {
 
     while (true) {
       tcp::socket socket(io);
-      acceptor.accept(socket);
+      acceptor.accept(socket);  // Blocking - wait for the client
 
       string message = makeDaytimeString();
       boost::system::error_code ec;
