@@ -5,6 +5,9 @@ add_compile_options(-std=c++11)
 find_package(Boost COMPONENTS system thread)
 include_directories(${Boost_INCLUDE_DIRS})
 
+add_executable(steady_timer steady_timer.cpp)
+target_link_libraries(steady_timer ${Boost_LIBRARIES})
+
 add_executable(timer1 timer1.cpp)
 target_link_libraries(timer1 ${Boost_LIBRARIES})
 

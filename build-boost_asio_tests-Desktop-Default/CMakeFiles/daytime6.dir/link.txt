@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/daytime6.dir/daytime6.cpp.o  -o daytime6 -rdynamic -lboost_system -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -lpthread 
